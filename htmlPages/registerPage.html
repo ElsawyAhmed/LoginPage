@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link href="./../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="./../images/register-icon.png" />
+
+</head>
+    <body>
+
+            <div class="login-page">
+                <div class="form">
+                    <input type="text" placeholder="name" id="name" />
+                    <input type="password" placeholder="password" id="pass" />
+                    <input type="email" placeholder="email" id="email" required/>
+                    <button onclick="add();" >create</button>
+                    <p class="message">Already registered? <a href="loginPage.html">Sign In</a></p>
+                    <h3 id="msg" style="color:aqua"></h3>
+
+                </div>
+            </div>
+        <script src="./../scripts/script.js">
+            /*
+            var users = [], userN, userP, userM;
+            var user = { userN, userP, userM };
+            function add() {
+                var currn = document.getElementById("name").value;
+                var currp = document.getElementById("pass").value;
+                var currm = document.getElementById( "email").value;
+                var newuser = {
+                    userN : currn, userP : currp, userM : currm
+                }
+                users.push(newuser);
+                console.log(users.length);
+                document.getElementById("msg").innerHTML = "User Added Successfully ";
+
+            }*/
+        </script>
+    </body>
+</html>

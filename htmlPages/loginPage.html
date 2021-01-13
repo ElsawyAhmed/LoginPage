@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link href="./../css/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon"href="./../images/register-icon.png" />
+
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+                <input type="text" placeholder="username" id="name" />
+                <input type="password" placeholder="password" id="pass" />
+                <button onclick="authenticate();">login</button>
+                <p class="message">Not registered? >> <a href="registerPage.html">Create</a> an account</></p>
+            </div>
+            <h3 id="msg" style="color:aqua"></h3>
+        </div>
+        <script src="./../scripts/script.js">
+            /*
+            var users = [], userN, userP, userM;
+            var user = {userN,userP,userM};
+            user = {
+                userN:"Ahmed" , userP:"123",userM:"elsawyahmed@gmail.com" 
+            };
+            users.push(user);
+       
+            function authenticate() {
+                var currn = document.getElementById("name").value;
+                var currp = document.getElementById("pass").value;
+                var i;
+            
+                for (i = 0; i < users.length; i++) {
+                    if (currn == users[i].userN) {
+                        if (currp == users[i].userP)
+                            document.getElementById("msg").innerHTML = "Successful login >> Your Mail is : </br>" + users[i].userM +" ";
+                        else
+                            document.getElementById("msg").innerHTML = "Failed to login Wrong Password";
+
+                    }
+                    else
+                        document.getElementById("msg").innerHTML = "Failed to login Wrong User";
+                
+                }
+
+
+            }*/
+        
+        </script>
+    </body>
+</html>

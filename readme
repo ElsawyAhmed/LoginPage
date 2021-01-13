@@ -1,0 +1,12 @@
+Hello Everybody this is a training for me to create a login Page 
+	# This Page takes input from the user as he is a registered one 
+	# If Not he can switch to the regiter a new user page 
+	# users stored as anarray of objects
+	# each object has username , user password and user email
+	# the method used to add a new user add()
+	# the method used to authenticate a user authenticate()
+	# the design of the page is an already existing design provided by codepen
+	# there is a bug in the code i am working on it 
+	# the bug is that the user add() method is working and you can trace that by the console 
+	# but if you tried to sign in with the user you have just created it will not be authorized 
+	# as you have reloaded the login page 
