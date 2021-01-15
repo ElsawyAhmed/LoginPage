@@ -4,7 +4,11 @@ user = {
     userN: "Ahmed", userP: "123", userM: "elsawyahmed@gmail.com"
 };
 users.push(user);
-
+    function valiatePassword(){
+        var password = document.geteElementById("pass").value;
+        
+    }
+        
     function authenticate() {
         var currn = document.getElementById("name").value;
         var currp = document.getElementById("pass").value;
@@ -22,7 +26,7 @@ users.push(user);
                 document.getElementById("msg").innerHTML = "Failed to login Wrong User";
 
         }
-}
+    }
 function add() {
     var currn = document.getElementById("name").value;
     var currp = document.getElementById("pass").value;
